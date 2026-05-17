@@ -1,4 +1,4 @@
-###6.5.4 Pertanyaan Praktikum
+**6.5.4 Pertanyaan Praktikum**
 1. Jelaskan proses bagaimana tombol dapat mengubah kondisi LED menggunakan
 interrupt!
 2. Apa fungsi attachInterrupt() pada program tersebut?
@@ -108,8 +108,7 @@ Perilaku LED:
 Selama tombol ditekan, ISR akan terus dipanggil berulang kali sehingga LED dapat berubah kondisi sangat cepat dan terlihat tidak stabil atau berkedip terus-menerus. Hal ini terjadi karena interrupt terus aktif selama sinyal LOW masih terdeteksi.
 
 
-
-###6.6.4 Pertanyaan Praktikum
+**6.6.4 Pertanyaan Praktikum**
 1. Jelaskan bagaimana fungsi millis() bekerja pada program tersebut!
 2. Apa perbedaan utama antara delay() dan millis()?
 3. Mengapa metode millis() disebut non-blocking?
