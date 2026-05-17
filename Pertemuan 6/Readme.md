@@ -107,6 +107,7 @@ Interrupt akan terus aktif selama pin berada pada kondisi LOW. Pada INPUT_PULLUP
 Perilaku LED:
 Selama tombol ditekan, ISR akan terus dipanggil berulang kali sehingga LED dapat berubah kondisi sangat cepat dan terlihat tidak stabil atau berkedip terus-menerus. Hal ini terjadi karena interrupt terus aktif selama sinyal LOW masih terdeteksi.
 
+----------------------------------------------------------------------------------------------------
 
 **6.6.4 Pertanyaan Praktikum**
 1. Jelaskan bagaimana fungsi millis() bekerja pada program tersebut!
